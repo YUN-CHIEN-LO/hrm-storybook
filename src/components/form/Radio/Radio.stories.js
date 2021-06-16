@@ -2,7 +2,7 @@ import HrmRadio from './Radio.vue';
 import HrmRadiogroup from './RadioGroup.vue';
 
 export default {
-    title: 'HRM/Basic/Radio',
+    title: 'HRM/Form/Radio',
     component: { HrmRadio, HrmRadiogroup },
     argTypes: {
         disabled: { control: { type: 'boolean' } },

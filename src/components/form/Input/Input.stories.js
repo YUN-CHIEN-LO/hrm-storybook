@@ -1,7 +1,7 @@
 import HrmInput from './Input.vue';
 
 export default {
-    title: 'HRM/Basic/Input',
+    title: 'HRM/Form/Input',
     component: HrmInput,
     argTypes: {
         size: { control: { type: 'select', options: ['small', 'medium', 'large'] } },

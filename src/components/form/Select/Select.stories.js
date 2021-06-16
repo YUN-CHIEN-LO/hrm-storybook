@@ -1,7 +1,7 @@
 import HrmSelect from './Select.vue';
 
 export default {
-    title: 'HRM/Basic/Select',
+    title: 'HRM/Form/Select',
     component: HrmSelect,
     argTypes: {
         size: { control: { type: 'select', options: ['small', 'medium', 'large'] } },

@@ -72,7 +72,7 @@ export default {
         position: absolute;
         border: solid black;
         border-width: 0 2px 2px 0;
-        width: 4px;
+        width: 5px;
         height: 9px;
         -webkit-transform: translate(-50%, -50%) rotate(45deg);
         -ms-transform: translate(-50%, -50%) rotate(45deg);

@@ -38,7 +38,6 @@ export default {
   },
   methods: {
     onclick(btn) {
-      console.log('click');
       this.btns.forEach((x) => {
         x.selected = false;
       });
