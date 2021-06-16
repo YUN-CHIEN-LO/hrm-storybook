@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import HrmButton from '../../basic/Button/Button.vue';
+import HrmButton from '../../form/Button/Button.vue';
 export default {
   name: 'HrmModal',
   components: {
