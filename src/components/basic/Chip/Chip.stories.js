@@ -3,10 +3,7 @@ import HrmChip from './Chip.vue';
 export default {
     title: 'HRM/Basic/Chip',
     component: HrmChip,
-    argTypes: {
-        size: { control: { type: 'select', options: ['medium'] } },
-        disabled: { control: { type: 'boolean' } }
-    },
+    argTypes: {},
 };
 
 const Template = (args, { argTypes }) => ({
