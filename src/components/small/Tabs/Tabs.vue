@@ -49,7 +49,6 @@ export default {
   },
   methods: {
     onclick(id) {
-      console.log(id);
       this.tabs.forEach((t)=>{
           if(t.id == id){
               t.isActive = true;
