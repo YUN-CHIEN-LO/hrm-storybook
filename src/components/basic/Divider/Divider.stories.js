@@ -3,7 +3,9 @@ import HrmDivider from './Divider.vue';
 export default {
     title: 'HRM/Basic/Divider',
     component: HrmDivider,
-    argTypes: {},
+    argTypes: {
+        type: { control: { type: 'select', options: ['default', 'color', 'colorful'] } }
+    },
 };
 
 const Template = (args, { argTypes }) => ({

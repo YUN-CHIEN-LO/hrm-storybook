@@ -1,7 +1,7 @@
 import HrmButton from './Button.vue';
 
 export default {
-    title: 'HRM/Basic/Button',
+    title: 'HRM/Form/Button',
     component: HrmButton,
     argTypes: {
         size: { control: { type: 'select', options: ['small', 'medium', 'large'] } },

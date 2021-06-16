@@ -1,7 +1,7 @@
 import HrmTextarea from './Textarea.vue';
 
 export default {
-    title: 'HRM/Basic/Textarea',
+    title: 'HRM/Form/Textarea',
     component: HrmTextarea,
     argTypes: {
         size: { control: { type: 'select', options: ['medium'] } },
