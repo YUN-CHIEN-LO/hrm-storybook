@@ -2,7 +2,7 @@ import HrmCheckbox from './Checkbox.vue';
 import HrmCheckboxgroup from './CheckboxGroup.vue';
 
 export default {
-    title: 'HRM/Basic/Checkbox',
+    title: 'HRM/Form/Checkbox',
     component: { HrmCheckbox, HrmCheckboxgroup },
     argTypes: {
         disabled: { control: { type: 'boolean' } },
